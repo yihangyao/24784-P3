@@ -37,7 +37,7 @@ class TrainCfg:
     action_scaling: bool = True
     action_bound_method: str = "clip"
     # collecting params
-    epoch: int = 200
+    epoch: int = 100
     episode_per_collect: int = 20
     step_per_epoch: int = 10000
     repeat_per_collect: int = 4  # increasing this can improve efficiency, but less stability
